@@ -1,0 +1,14 @@
+package domain
+
+
+case class ClickLog(ip:String, time:String, courseId:Int, statusCode:Int, referer:String)
+
+package domain
+
+case class CourseClickCount(day_course:String, click_count:Long)
+
+package domain
+
+
+case class CourseSearchClickCount(day_search_course:String, click_count:Long)
+
